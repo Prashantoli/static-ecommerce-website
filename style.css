@@ -1,0 +1,28 @@
+body {
+    background-color: #4CAF50; /* Sets the background color for the entire page */
+    color: white; /* Ensures text is readable on the green background */
+}
+
+.container {
+    background-color: #ffffff; /* Optional: Sets a white background for the container */
+    padding: 20px; /* Optional: Adds some padding inside the container */
+    border-radius: 5px; /* Optional: Adds rounded corners to the container */
+}
+
+.nav a {
+    color: white; /* Ensures navigation links are readable */
+    margin-right: 10px;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+}
+
+.search-container input {
+    flex: 1;
+}
+
+.card {
+    background-color: #ffffff; /* Ensures cards have a white background */
+}

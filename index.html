@@ -1,109 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Page</title>
+    <link rel="stylesheet" href="../CsS/9-style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Responsive Page</h1>
+      </div>
+    </header>
 
-</head>
-<body>
     <div class="container">
-        <div calss="row">
-            <div class="col-xl-12">Banner</div>
-        </div>
-        <div class="row">
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-        </div>
-        <div class="row">
-            <div class="col-xl-12">
-                <div id="carouselExampleCaptions" class="carousel slide">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="Capture.PNG" class="img-fluid img-thumbnail" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                         
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Capture1.PNG" class="img-fluid img-thumbnail" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                         
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <img src="Capture3.PNG" class="img-fluid img-thumbnail" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                         
-                        </div>
-                      </div>
+      <section class="content">
+        <h2>Content Section</h2>
+        <p>This is the main content of the page. Responsive is this.</p>
 
-                      <div class="carousel-item">
-                        <img src="Capture4.PNG" class="img-fluid img-thumbnail" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                        
-                        </div>
-                      </div>
-
-
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-
-            </div>
+        <div class="horizontal-divs po">
+          <div class="box">Box 1</div>
+          <div class="box">Box 2</div>
+          <div class="box">Box 3</div>
         </div>
 
-    </div><!-- container-->
+        <div class="vertical-divs po">
+          <div class="box">Box 4</div>
+          <div class="box">Box 5</div>
+          <div class="box">Box 6</div>
+        </div>
 
-    <script src="js/bootstrap.bundle.js"></script>
-    
-</body>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
+          ipsum id odio placerat pharetra. Vivamus sed ex a dui consequat
+          facilisis. Fusce volutpat lacus non turpis aliquet, id cursus nisi
+          suscipit.
+        </p>
+        <p>
+          Integer nec metus sed ex eleifend accumsan. Phasellus fringilla urna
+          at felis vestibulum, non iaculis nunc molestie. Sed nec semper mauris.
+          Vestibulum nec bibendum ex, non maximus purus. Donec tristique sem
+          auctor, vehicula lacus quis, posuere lacus.
+        </p>
+      </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2081 B.S Responsive Page. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
